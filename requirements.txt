@@ -6,3 +6,4 @@ Flask-Testing==0.8.1
 pylint
 pylint-flask-sqlalchemy
 redis==4.3.6
+requests
