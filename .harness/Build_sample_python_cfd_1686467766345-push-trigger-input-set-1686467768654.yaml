@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sample_python_cfd_1686467766345-push-trigger-input-set
+  identifier: Build_sample_python_cfd_1686467766345pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sample_python_cfd_1686467766345
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
